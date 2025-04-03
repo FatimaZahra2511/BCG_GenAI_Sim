@@ -1,4 +1,4 @@
-# BCG_GenAI_Sim
+
 # BCG GenAI Job Simulation (Forage)
   
 **Platform:** Forage  
