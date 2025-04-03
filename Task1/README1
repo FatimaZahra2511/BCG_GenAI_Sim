@@ -1,0 +1,59 @@
+# Task 1: Financial Data Extraction & Trend Analysis
+
+This task involved extracting and analyzing key financial data from SEC filings to inform the development of an AI-powered financial chatbot. The analysis was completed using Python and pandas in a Jupyter Notebook environment.
+
+# Objective
+
+Manually extract financial data for Microsoft, Tesla, and Apple from the past three 10-K filings. Analyze trends over time using Python to uncover insights that could shape chatbot logic and user-facing responses.
+
+# Key Financial Metrics
+
+For each company, the following metrics were collected from 10-K filings:
+
+- Total Revenue  
+- Net Income  
+- Total Assets  
+- Total Liabilities  
+- Cash Flow from Operating Activities  
+
+# Steps Followed
+
+## 1. Manual Data Extraction
+- Accessed the SEC EDGAR database.
+- Located the latest three 10-K filings for Microsoft, Tesla, and Apple.
+- Extracted the five required metrics per fiscal year.
+- Compiled the data into an Excel spreadsheet for easier analysis.
+
+## 2. Python Setup & Jupyter Notebook
+- Installed and launched Jupyter Notebook:
+  ```bash
+  pip install notebook
+  jupyter notebook
+  ```
+- Created a new notebook for this task.
+
+## 3. Data Analysis Using Pandas
+- Converted the Excel file to CSV for easier handling.
+- Loaded the data into a pandas DataFrame:
+  ```python
+  import pandas as pd
+  df = pd.read_csv('financial_data.csv')
+  ```
+- Calculated year-over-year percentage changes:
+  ```python
+  df['Revenue Growth (%)'] = df.groupby(['Company'])['Total Revenue'].pct_change() * 100
+  df['Net Income Growth (%)'] = df.groupby(['Company'])['Net Income'].pct_change() * 100
+  ```
+- Explored other metrics and groupings to identify financial trends.
+
+## 4. Documentation & Export
+- Used markdown cells in Jupyter to explain the methodology, trends, and insights.
+- Exported the final notebook as PDF/HTML for submission.
+
+# Tools & Technologies
+
+- **Python 3**
+- **pandas**
+- **Jupyter Notebook**
+- **Excel/CSV**
+- **SEC EDGAR database**
