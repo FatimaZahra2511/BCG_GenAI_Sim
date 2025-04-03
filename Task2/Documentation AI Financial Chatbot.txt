@@ -1,0 +1,29 @@
+                                       Documentation: AI Financial Chatbot
+
+ --> How It Works:
+- The chatbot retrieves financial data based on predefined rule-based logic.
+
+- It matches user input to known financial queries and returns the correct data.
+
+- Data is extracted from the financial analysis CSV from previous steps.
+
+ --> Queries It Can Answer:
+The chatbot can respond to predefined financial queries such as:
+
+"What is the total revenue?"
+
+"How has net income changed over the last year?"
+
+"What are the total assets for [Company] in [Year]?"
+
+"What is Tesla's cash flow from operations for 2023?"
+
+ -->Limitations:
+Not an AI-powered chatbot: Uses simple if-else logic instead of NLP.
+
+Can’t handle variations: Must match predefined queries exactly.
+
+No live data: It works only with the dataset provided.
+
+No user intent detection: Cannot understand different phrasings of the same question.
+

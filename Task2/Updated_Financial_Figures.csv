@@ -1,0 +1,10 @@
+Company,Fiscal Year,Total Revenue,Net Income,Total Assets,Total Liabilities,Cashflow from Operations,Revenue Growth (%),Net Income Growth (%)
+Apple Inc.,2021,365.82,94.68,351,287.91,102.06,,
+Apple Inc.,2022,394.33,99.8,350.08,285.87,104.04,7.793450331,5.407689058
+Apple Inc.,2023,383.93,94.68,352.76,283.91,111.44,-2.637384931,-5.130260521
+Microsoft Corporation,2021,168.1,61.2,333.8,97,76.7,,
+Microsoft Corporation,2022,198.3,61.3,364.8,97.6,89,17.96549673,0.163398693
+Microsoft Corporation,2023,211.9,72.3,411,104.6,81,6.858295512,17.94453507
+Tesla  Inc.,2021,53.82,5.52,62.13,27.06,11.5,,
+Tesla  Inc.,2022,81.46,12.56,82.34,33.37,13.26,51.3563731,127.5362319
+Tesla  Inc.,2023,96.77,14.99,106.62,36.44,14.72,18.79450037,19.34713376
